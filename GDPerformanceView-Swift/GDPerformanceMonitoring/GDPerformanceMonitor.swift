@@ -22,6 +22,8 @@
 
 import UIKit
 
+// To support Swift 4 and @objc inference updates (MOB-26:20171106:AB)
+@objcMembers
 public class GDPerformanceMonitor: NSObject {
     
     // MARK: Public Properties
